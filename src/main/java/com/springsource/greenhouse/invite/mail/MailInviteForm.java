@@ -28,10 +28,10 @@ import com.springsource.greenhouse.invite.Invitee;
 public class MailInviteForm {
 
 	@NotEmpty
-	private List<Invitee> invitees;
+	public List<Invitee> invitees;
 	
 	@NotEmpty
-	private String invitationText;
+	public String invitationText;
 
 	/**
 	 * The list of inviteees to send the invite to.
